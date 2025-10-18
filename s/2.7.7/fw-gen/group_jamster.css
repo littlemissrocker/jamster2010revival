@@ -1,0 +1,120 @@
+.fmd-box .fmd-ft .fmd-link-list a {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-icons.png);
+}
+
+.fmd-box-bt,.fmd-box-bt div,.fmd-box-bb,.fmd-box-bb div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/main-box.png);
+}
+
+.fmd-box-br,.fmd-box-bl {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/main-borders.png);
+}
+
+.fmd-dialogbox,.fmd-dialogbox .fmd-hd,.fmd-dialogbox .fmd-hd div,.fmd-dialogbox .fmd-bd,.fmd-dialogbox .fmd-ft,.fmd-dialogbox .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-00.png);
+}
+
+.fmd-dialogbox-00,.fmd-dialogbox-00 .fmd-hd,.fmd-dialogbox-00 .fmd-hd div,.fmd-dialogbox-00 .fmd-bd,.fmd-dialogbox-00 .fmd-ft,.fmd-dialogbox-00 .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-00.png);
+}
+
+.fmd-dialogbox-01,.fmd-dialogbox-01 .fmd-hd,.fmd-dialogbox-01 .fmd-hd div,.fmd-dialogbox-01 .fmd-bd,.fmd-dialogbox-01 .fmd-ft,.fmd-dialogbox-01 .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-01.png);
+}
+
+.fmd-dialogbox-02,.fmd-dialogbox-02 .fmd-hd,.fmd-dialogbox-02 .fmd-hd div,.fmd-dialogbox-02 .fmd-bd,.fmd-dialogbox-02 .fmd-ft,.fmd-dialogbox-02 .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-02.png);
+}
+
+.fmd-dialogbox-03,.fmd-dialogbox-03 .fmd-hd,.fmd-dialogbox-03 .fmd-hd div,.fmd-dialogbox-03 .fmd-bd,.fmd-dialogbox-03 .fmd-ft,.fmd-dialogbox-03 .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-03.png);
+}
+
+a.fmd-debugPopup {
+    background: transparent url(/s/2.7.7/fw/img/hsInfo.png) repeat scroll 0 0;
+}
+
+.fmd-button {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-backgrounds.png);
+}
+
+input.fmd-input-style-round-1 {
+    behavior: url(/s/2.7.7/htc/border-radius.htc);
+}
+
+.yui-carousel-button,#fmd-accordion .fmd-yui-accordion-toggle .fmd-indicator,.fmd-accordion .fmd-indicator,.yui-carousel-nav ul li {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-icons.png);
+}
+
+#fmd-accordion li.fmd-yui-accordion-panel a.fmd-yui-accordion-toggle:hover {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-backgrounds.png);
+}
+
+.fmd-accordion .fmd-dialogbox:hover,.fmd-accordion .fmd-dialogbox:hover .fmd-hd,.fmd-accordion .fmd-dialogbox:hover .fmd-hd div,.fmd-accordion .fmd-dialogbox:hover .fmd-bd,.fmd-accordion .fmd-dialogbox:hover .fmd-ft,.fmd-accordion .fmd-dialogbox:hover .fmd-ft div {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/boxes/box-04.png);
+}
+
+.fmd-doubleLine .fmd-index,.fmd_ .fmd-search input,.fmd-preview {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-icons.png);
+}
+
+#fmd-languageChoose .fmd-flag-de {
+    background-image: url(/s/2.7.7/fw/img/flags/sprite-flags.png);
+}
+
+#fmd-languageChoose .fmd-flag-it {
+    background-image: url(/s/2.7.7/fw/img/flags/sprite-flags.png);
+}
+
+#fmd-languageChoose .fmd-flag-fr {
+    background-image: url(/s/2.7.7/fw/img/flags/sprite-flags.png);
+}
+
+.fmd-left-navigation ul li ul li ul li,.fmd-pagination .fmd-prev-on,.fmd-pagination .fmd-prev-off,.fmd-pagination .fmd-next-on,.fmd-pagination .fmd-next-off {
+    background-image: url(/s/2.7.7/fw/img/group_jamster/sprites/sprite-icons.png);
+}
+
+#fmd-footerSitemap {
+    background-image: url(/s/2.7.7/fw/img/bg_horizontalLine.gif);
+}
+
+.jamster #fmd-logo,.terra #fmd-logo {
+    background-image: url(/s/2.7.7/fw/img/trademarks/jamster.png);
+}
+
+.jamba #fmd-logo {
+    background-image: url(/s/2.7.7/fw/img/trademarks/jamba.png);
+}
+
+.loc_en_US #fmd-logo {
+    background-image: url(/s/2.7.7/fw/img/trademarks/jamster_trademark.png);
+}
+
+.loc_es_ES #fmd-logo {
+    background-image: url(/s/2.7.7/fw/img/trademarks/jamster.png);
+}
+
+#fmd-main-navigation {
+    background: url(/s/2.7.7/fw/img/bg_horizontalLine.gif) repeat-x scroll left bottom transparent;
+}
+
+/*
+     FILE ARCHIVED ON 08:51:32 Nov 11, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:22:11 Oct 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.483
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.008
+  cdx.remote: 54.769
+  LoadShardBlock: 888.459 (3)
+  PetaboxLoader3.datanode: 782.961 (4)
+  load_resource: 260.487
+  PetaboxLoader3.resolve: 69.598
+*/
