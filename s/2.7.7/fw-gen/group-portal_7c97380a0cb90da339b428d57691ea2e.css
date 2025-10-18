@@ -1,4 +1,4 @@
-@import url("/s/2.7.7/fw-gen/group_jamster.css");html{background-color:#e7e7e7;}
+@import url("group_jamster.css");html{background-color:#e7e7e7;}
 body{text-align:center;}
 .fmd_{width:996px;margin:10px auto;text-align:left;}
 .fmd-popup .fmd_{width:auto;}
@@ -21,7 +21,7 @@ body{text-align:center;}
 #fmd-searchForm{position:absolute;top:32px;left:262px;}
 #fmd-page-footer li,.fmd_ .fmd-ft ul.fmd-supportedCarriers li{margin-right:10px;}
 #fmd-page-footer.fmd-ft{padding-right:0;padding:20px 30px 40px;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");.fmd_ .fmd-box{clear:both;padding:10px 0;border-top:2px solid #bfbfbf;}
+@import url("group_jamster.css");.fmd_ .fmd-box{clear:both;padding:10px 0;border-top:2px solid #bfbfbf;}
 .fmd_ .fmd-singleBox{border-top-width:0;}
 .fmd-box .fmd-hd{position:relative;}
 .fmd_ .fmd-box .fmd-bd{padding:0;border-top:1px solid #CCC;}
@@ -61,7 +61,7 @@ body{text-align:center;}
 .fmd-preview{position:absolute;display:block;}
 .fmd-dot{font-size:medium;font-weight:bold;}
 .fmd-empty-cell:after{content:".";color:#f00;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);overflow:visible;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");.fmd-box-bt,.fmd-box-bt div,.fmd-box-bb,.fmd-box-bb div{background-repeat:no-repeat;}
+@import url("group_jamster.css");.fmd-box-bt,.fmd-box-bt div,.fmd-box-bb,.fmd-box-bb div{background-repeat:no-repeat;}
 .fmd-box-br,.fmd-box-bl{background-repeat:repeat-y;}
 .fmd_ .fmd-box-br{padding:0 2px 0 0;background-position:right 0;}
 .fmd_ .fmd-box-bl{padding:0 0 0 2px;background-position:0 0;}
@@ -81,7 +81,7 @@ div.fmd-dialogbox{background-position:left -15px;margin-bottom:7px;}
 .fmd-dialogbox-01,.fmd-dialogbox-01 .fmd-hd,.fmd-dialogbox-01 .fmd-hd div,.fmd-dialogbox-01 .fmd-bd,.fmd-dialogbox-01 .fmd-ft,.fmd-dialogbox-01 .fmd-ft div{background-repeat:no-repeat;}
 .fmd-dialogbox-02,.fmd-dialogbox-02 .fmd-hd,.fmd-dialogbox-02 .fmd-hd div,.fmd-dialogbox-02 .fmd-bd,.fmd-dialogbox-02 .fmd-ft,.fmd-dialogbox-02 .fmd-ft div{background-repeat:no-repeat;}
 .fmd-dialogbox-03,.fmd-dialogbox-03 .fmd-hd,.fmd-dialogbox-03 .fmd-hd div,.fmd-dialogbox-03 .fmd-bd,.fmd-dialogbox-03 .fmd-ft,.fmd-dialogbox-03 .fmd-ft div{background-repeat:no-repeat;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");.fmd-button{display:-moz-inline-box;display:inline-block;vertical-align:text-bottom;}
+@import url("group_jamster.css");.fmd-button{display:-moz-inline-box;display:inline-block;vertical-align:text-bottom;}
 .fmd-button span{display:block;*display:inline-block;}
 .fmd-button button,.fmd-button a{display:block;*display:inline-block;border:none;margin:0;}
 .fmd-button button{background-color:transparent;*overflow:visible;cursor:pointer;}
@@ -118,7 +118,7 @@ div.fmd-dialogbox{background-position:left -15px;margin-bottom:7px;}
 .fmd-btn-skin-08 .fmd-button span{border-color:#ccc;border-right-color:#aaa;}
 .fmd-btn-skin-08 .fmd-button button,.fmd-btn-skin-08 .fmd-button a{line-height:2;*line-height:1.7;min-height:2em;*min-height:auto;text-transform:uppercase;color:#0a6a9d;height:27px;font-weight:bold;font-size:100%;}
 input.fmd-input-style-round-1{border:1px solid #CCC;-moz-border-radius:5px;-webkit-border-top-left-radius:5px;-khtml-border-radius:5px;border-radius:5px;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");#fmd-main-navigation ul li{float:left;}
+@import url("group_jamster.css");#fmd-main-navigation ul li{float:left;}
 #fmd-main-navigation ul li{font-weight:bold;text-transform:uppercase;}
 #fmd-main-navigation ul li a{text-decoration:none;display:block;}
 #fmd-main-navigation ul li a{padding:8px 18px;color:#323332;}
@@ -241,7 +241,7 @@ p.fmd-copyright,.fmd-ft ul.fmd-supportedCarriers{text-align:center;}
 .fmd-artistBrowseLinks li{border-bottom:1px dashed #ccc;padding-top:1px;font-size:95%;}
 .fmd-artistBrowseLinks li.fmd-first{border-top:1px dashed #ccc;}
 #fmd-flat-navigation ul li a{font-size:90%;white-space:nowrap;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");.fmd-footerServiceLinks a{color:#323232;}
+@import url("group_jamster.css");.fmd-footerServiceLinks a{color:#323232;}
 .fmd_ .fmd-product{position:relative;padding:5px 0;overflow:hidden;}
 .fmd-hProduct,.fmd-doubleLine,.fmd-singleLine{border-bottom:1px solid #CCC;}
 .fmd-singleProduct{border-bottom-width:0;}
@@ -425,7 +425,7 @@ body.fmd-errorpage .fmd-box-br{margin-top:50px;}
 body.fmd-errorpage .fmd-box-main{padding:20px 0 30px 20px;margin-top:50px;border:1px solid #CCC;}
 body.fmd-errorpage .fmd-errorcode{font-size:80%;}
 body.fmd-errorpage .fmd-redirectmessage{margin:16px 0;}
-@import url("/s/2.7.7/fw-gen/group_jamster.css");#fmd-mostPopular{overflow:hidden;}
+@import url("group_jamster.css");#fmd-mostPopular{overflow:hidden;}
 #fmd-carousel-container{height:196px;width:7000px;_height:auto;_width:auto;_overflow:visible;}
 #fmd-carousel-container.yui-carousel-horizontal{height:auto;width:auto,;}
 .yui-carousel{visibility:hidden;overflow:hidden;text-align:left;zoom:1;}
