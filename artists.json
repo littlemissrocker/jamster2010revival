@@ -1,0 +1,30 @@
+{
+  "schnuffel_bunny": {
+    "name": "Schnuffel Bunny",
+    "image": "images/Schnuffel.jpg",
+    "bio_html": "The animated cartoon bunny <a href=\"http://en.wikipedia.org/wiki/Schnuffel\">Schnuffel</a> also called Snuggle scored a chart-topping hit single in the German-language world in 2008 with \"Kuschel Song\" (in English, \"Snuggle Song\"), an adorably cute ode to his carrot. Conceived by Jamba!, the same Berlin-based mobile phone content provider that gave life to the Crazy Frog phenomenon, the animated cartoon bunny proved so popular -- for instance, hitting number one in Germany and Austria and number two in Switzerland -- that Sony BMG released a full-length Schnuffel album, Ich Hab' Dich Lieb (2008), and also marketed \"Kuschel Song\" internationally, translating the song into languages including English, Spanish, and Dutch. Recently Snuggle joined <a href=\"https://www.facebook.com/SchnuffelBunnyOfficial\">Facebook</a>. You can also find cell phone videos at <a href=\"http://www.jamster.com/fw/goto/artist/schnuffel_1377200/videos\">Snuggle Bunny Cell Phone Videos</a>.~ Jason Birchmeier, All Music Guide",
+    "subheader": "Schnuffel Bunny Ringtones",
+    "title": "Snuggle Bunny | Schnuffel Bunny | Snuggle Song Ringtones!",
+    "desription": "Snuggle Bunny Ringtones, the animated charachter, created by Jamster.",
+    "keywords": "Snuggle Bunny Ringtone, Schnuffel Ringtone, Bunny Ringtone,",
+    "similar_html": "<a href=\"artist.html?name=gummy_bear\">Gummy Bear</a>",
+    "ringtones": [
+      { "name": "Snuggle Song Ringtone", "img": "storage/view/342/5/cu/Cutie_SnuggleSong_JambaMp3.jpg", "mp3": "storage/view/325/1/sn/Snuggle_Song.mp3" },
+      { "name": "Beep Beep Ringtone", "img": "storage/view/342/5/be/Beep_Beep.jpg", "mp3": "storage/view/325/1/be/Beep_Beep3.mp3" },
+      { "name": "I Love You so Ringtone", "img": "storage/view/342/5/sc/SchnuffelBunny_ILoveYou_Ja.jpg", "mp3": "storage/view/325/1/i/I_Love_You.mp3" }
+    ]
+  },
+  "gummy_bear": {
+    "name": "Gummy Bear",
+    "image": "images/Gummybear.jpg",
+    "bio_html": "Hi. My name is Gummy Bear (or Gummib&auml;r). I'm a gummy bear. I'm green, jiggly and cute. You might know me from my videos on the internet. Maybe you've seen me on <a href=\"http://www.youtube.com/user/gummybearintl?blend=2&ob=4\" target=\"_blank\">YouTube</a> or <a href=\"http://www.myspace.com/funnygummy\" target=\"_blank\">MySpace</a>. People from every country of the world love to watch me sing and dance. I sing in English, Hungarian, French, Spanish and Swedish and I am learning new languages every day. My debut CD is called I Am Your Gummy Bear. Not only does it include 15 groovy tunes such as I Am A Gummy Bear (The Gummy Bear Song), Funny DJ, Cho Ka Ka O, Gummy From Bom Bom Bay, Buj Buj Polka, and many others, but it even includes the Spanish and Hungarian versions of The Gummy Bear Song as bonus tracks and 2 versions of the I Am A Gummy Bear video as well as wallpapers for your computer. Wow. That's a lot of stuff. Gummy Bear ringtones can be found at <a href=\"http://www.jamster.com/fw/goto/artist/gummy-bear_1638255?keywords=gummy+bear\">Jamster.com</a>. Visit my <a href=\"http://www.gummibar.net\" target=\"_blank\">official website</a> for more information!",
+    "subheader": "Gummy Bear Ringtones",
+    "title": "Gummy Bear Ringtones",
+    "description": "Hi. My name is Gummy Bear (or Gummib&auml;r). I'm a gummy bear. I'm green, jiggly and cute. You might know me from my videos on the internet. Maybe you've seen me on YouTube or MySpace. People from ev",
+    "keywords": "",
+    "similar_html": "<a href=\"artist.html?name=schnuffel_bunny\">Schnuffel Bunny</a>",
+    "ringtones": [
+      { "name": "bear", "img": "storage/view/342/5/uh/uhhh", "mp3": "storage/view/325/1/uh/uhhh" }
+    ]
+  }
+}
