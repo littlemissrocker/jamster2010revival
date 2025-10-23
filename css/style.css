@@ -1,0 +1,600 @@
+/* global stylesheet - applies to *all* pages */
+
+/* ---------------- css reset --------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+ins { /* remember to highlight inserts */
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------------- reset end ---------------- */
+
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #372f2d;
+}
+
+a,
+a:visited {
+    color: #2c95b5;
+    text-decoration: none;
+}
+
+a img { /* images don't have borders */
+    border: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.replace, .replace a {
+    display: block;
+    text-indent: -9999px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+/*----- MAIN DIVs -----*/
+
+body {
+    text-align: center;
+    color: #333333;
+    margin: 10px 0;
+    background: #E7E7E7;
+}
+
+div#wrapper {
+    width: 996px;
+    text-align: left;
+    margin: 0 auto 30px auto;
+    background: url(images/template/y-borders_bg.gif) left top repeat-y;
+}
+
+div#header {
+    height: 109px;
+    position: relative;
+    padding: 0 2px;
+    background: url(images/template/top-border_bg.png) left top no-repeat;
+}
+
+div#mainContent {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background: url(images/template/maincontentborder_bg.gif) left bottom repeat-x;
+    overflow: auto;
+}
+
+div#content {
+    width: 668px;
+    padding: 11px 0 0 14px;
+    margin-right: 12px;
+    float: left;
+}
+
+div#sidebar {
+    width: 290px;
+    margin-top: 5px;
+    float: left;
+}
+
+div#footer {
+    width: 996px;
+    font-size: 11px;
+    color: #666666;
+    text-align: center;    
+    position: relative;
+}
+
+/*----- HEADER -----*/
+
+div#header div#navigation {
+    width: 974px;
+    height: 31px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 18px;
+    border-top: 1px solid #cccccc;
+    background: url(images/template/border_bg.gif) left bottom repeat-x;
+}
+
+div#header span a {
+    width: 204px;
+    height: 0;
+    padding-top: 46px;
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    display: block;
+    background: url(images/header/jamster-logo_bg.png) left top no-repeat;
+    overflow: hidden;
+}
+
+div#header div#navigation ul.mainNav li {
+    display: inline;
+    float: left;
+}
+
+div#header div#navigation ul.mainNav li a,
+div#header div#navigation ul.mainNav li a:visited {
+    font-size: 12px;
+    line-height: 28px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 34px;
+    display: block;
+    float: left;
+}
+
+div#header div#navigation ul.mainNav li a.active {
+    color: #F80543;
+}
+
+div#header div#navigation ul.loginNav {
+    position: relative;
+    top: 4px;
+    right: 6px;
+    float: right;
+}
+
+div#header div#navigation ul.loginNav li {
+    height: 19px;
+    line-height: 19px;
+    margin-right: 4px;
+    display: block;
+    background: url(images/header/loginnav_bg.png) left top no-repeat;
+    float: left;
+}
+
+div#header div#navigation ul.loginNav li a {
+    height: 19px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    background: url(images/header/loginnav_bg.png) right top no-repeat;
+}
+
+div#header input.inputField {
+    width: 205px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #848484;
+    padding: 7px 0 0 32px;
+    position: absolute;
+    top: 35px;
+    left: 239px;
+    border: 0;
+    background: url(images/header/search-input_bg.png) left top no-repeat;
+}
+
+div#header input.button {
+    width: 62px;
+    height: 26px;
+    color: #ffffff;
+    position: absolute;
+    top: 35px;
+    left: 486px;
+    border: 0;
+    padding-bottom: 2px;
+    background: url(images/header/search_btn_bg.png) left top no-repeat;
+    cursor: pointer;
+}
+
+/*----- CONTENT -----*/
+
+div#content div.headerWrap {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+div#content h1.mainHeader {
+    padding-right: 10px;
+    float: left;
+}
+
+div#content div.description {
+    width: 668px;
+    color: #666666;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    background: url(images/template/border_bg.gif) left bottom repeat-x;
+    clear: both;
+    overflow: auto;
+}
+
+div#content div.description h2.subHeader {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333333;
+    position: relative;
+    top: -3px;
+}
+
+div#content div.description img.artistImage {
+    margin: 0 11px 3px 0;
+    float: left;
+}
+
+div#content div.description p#bio {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+div#content div.description div.clipTextButton {
+    font-size: 11px;
+    color: #2c95b5;
+    display: inline;
+    cursor: pointer;
+}
+
+div#content div.description div.clipTextButton:hover {
+    text-decoration: underline;
+}
+
+div#content div.description span.re-collapse {
+    display: block;
+    clear: both;
+}
+
+div#content h3.moduleHeader {
+    font-size: 16px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #cccccc;
+}
+
+div#content div.item {
+    width: 329px;
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid #D6D6D6;
+    float: left;
+}
+
+div#content div.even {
+    margin-right: 10px;
+}
+
+div#content div.item a.playBtn {
+    width: 50px;
+    height: 0;
+    padding-top: 50px;
+    position: absolute;
+    top: 5px;
+    display: block;
+    background: url(images/content/play_btn_bg.png) 5px 26px no-repeat;
+    overflow: hidden;
+}
+
+div#content div.item a.sm2_playing {
+    background: url(images/content/pause_btn_bg.png) 5px 26px no-repeat;
+}
+
+div#content div.item img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+}
+
+div#content div.item span.titleLinks {
+    width: 279px;
+    height: 29px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border-bottom: 1px dotted #c8c8c8;
+}
+
+div#content div.item span.titleLinks a.title,
+div#content div.item span.titleLinks a.title:visited {
+    font-size: 12px;
+    line-height: 29px;
+    font-weight: bold;
+    position: relative;
+    left: 7px;
+    color: #333333;
+}
+
+div#content div.item span.titleLinks a.title:hover {
+    text-decoration: underline;
+}
+
+div#content div.item span.titleLinks a.getBtn {
+    width: 62px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #F60A46;
+    text-transform: uppercase;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    display: block;
+    background: url(images/content/getit_btn_bg.png) left top no-repeat;
+}
+
+div#content div.item span.artist {
+    width: 279px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+div#content div.item span.artist a {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 7px;
+}
+
+/*----- SIDEBAR -----*/
+
+div#sidebar h3.moduleHeader {
+    height: 26px;
+    line-height: 26px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 6px;
+    margin-bottom: 7px;
+    background: #FC044C;
+}
+
+div#sidebar div {
+    color: #666666;        
+}
+
+div#sidebar div.similarArtists {
+    margin-bottom: 7px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+div#sidebar div.similarArtists p.question {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+div#sidebar div.similarArtists p.info {
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+div#sidebar div.similarArtists ul {
+    margin-bottom: 8px;
+}
+
+div#sidebar div.similarArtists ul li {
+    font-size: 11px;
+    line-height: 26px;
+}
+
+/*----- FEEDS -----*/
+
+div.newsFeeds,
+div.blogFeed {
+    font-size: 11px;
+}
+
+div.firstFeed,
+div.secondFeed {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+div.newsFeeds h4,
+div.blogFeed h4 {
+    margin-bottom: 6px;
+}
+
+div.newsFeeds p.title,
+div.blogFeed p.title {
+    margin-bottom: 0;
+}
+
+div.newsFeeds div.content,
+div.blogFeed div.content {
+    margin-bottom: 9px;
+}
+
+div.blogFeed div.content img {
+    display: none;
+}
+
+/*----- FOOTER -----*/
+
+div#footer a,
+div#footer a:visited {
+    color: #666666 !important;
+}
+
+div#footer ul.linkList {
+    width: 195px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 19px;
+    float: left;
+}
+
+div#footer ul.first {
+    padding-left: 14px;
+}
+
+div#footer ul.linkList li.listHeader {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+div#footer ul.linkList li a {
+    line-height: 15px;
+}
+
+div#footer ul.supporedCarriers {
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+div#footer ul.supporedCarriers li {
+    margin-right: 12px;
+    display: inline;
+    float: left;
+}
+
+div#footer p.info {
+    width: 450px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: url(images/footer/amglogo_bg.gif) left center no-repeat;
+    display: block;
+    clear: both;
+}
+
+div#footer div.subFooter {
+    padding-top: 12px;
+    background: #e7e7e7 url(images/template/bottom-border_bg.png) left top no-repeat;
+}
+
+div#footer div.subFooter p.jamsterNav {
+    width: 950px;
+    height: 48px;
+    line-height: 20px;
+    padding: 0 0 10px 20px;
+    display: block;
+}
+
+div#footer div.subFooter p.jamsterNav span {
+    font-size: 12px;
+    color: #666666;
+    padding-left: 14px;
+}
+
+div#footer div.subFooter p.jamsterNav span a,
+div#footer div.subFooter p.jamsterNav span a:visited {
+    color: #444444 !important;
+    padding-right: 14px;
+}
+
+div#footer p.copyrightNotice {
+    color: #444444;
+}
+
+div#footer span.misspellings {
+   display: block;
+   margin-bottom: 3px;
+}
+
+/*----- SITEMAP -----*/
+
+div#mainContent h2.pageHeader {
+    font-size: 28px;
+}
+
+div#mainContent ul.allArtistsList {
+    border-top: 1px dashed #cccccc;
+}
+
+div#mainContent ul.allArtistsList {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 22px 0 30px 10px;
+}
+
+div#mainContent ul.allArtistsList li {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    border-bottom: 1px dashed #cccccc;
+}
+
+div#mainContent ul.allArtistsList li a,
+div#mainContent ul.allArtistsList li a:visited {
+    color: #0a6b9d;
+    text-decoration: none;
+}
+
+div#mainContent ul.allArtistsList li a:hover {
+    text-decoration: underline;
+}
+/*
+     FILE ARCHIVED ON 08:43:16 Jul 13, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:37:03 Oct 22, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.629
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.01
+  esindex: 0.01
+  cdx.remote: 19.692
+  LoadShardBlock: 306.4 (3)
+  PetaboxLoader3.datanode: 239.404 (4)
+  PetaboxLoader3.resolve: 316.551 (3)
+  load_resource: 284.585
+*/
